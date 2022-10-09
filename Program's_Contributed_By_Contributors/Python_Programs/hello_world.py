@@ -1,5 +1,7 @@
+# defining a function to print hello world
 def hello_world():
   print("Hello Github!")
   
-if __name__ == "main":
+# function to check whether module (or script) runs directly
+if __name__ == "__main__":
   hello_world()
